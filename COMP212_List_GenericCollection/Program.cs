@@ -39,12 +39,17 @@ namespace COMP212_List_GenericCollection
             // TODO: Access any item by its index
 
             Console.WriteLine("Movie at Index 5:" + movieList[5]);
-            Console.ReadLine();
-            // TODO: Remove items from the list
 
-
+            // TODO: Remove items from the list- it can be done using different methods as Remove (), RemoveAt(index), RemoveRange()
+            movieList.Remove("Run");
+            movieList.RemoveAt(2);
+            
+            foreach (var item in movieList)
+            {
+                Console.WriteLine(item);
+            }
             // TODO: Sort the list content
-
+            Console.ReadLine();
 
             // ** Searching List Content **/
 
