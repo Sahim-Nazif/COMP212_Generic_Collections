@@ -11,20 +11,23 @@ namespace COMP212_List_GenericCollection
         static void Main(string[] args)
         {
 
-            string[] movies = { "A Quite Place 2", "The Gurdge", "The" };
+            string[] movies = { "A Quite Place 2", "The Gurdge", "The Turning","Under Water", "Escape Room 2" ,"Run",
+                                "The Night House", "Wolf Creek 3" ,"Candyman"};
 
             // TODO: Create the list
-
+            List<string> movieList = new List<string>(12);
 
             // TODO: Add some elements to the list from an existing array
-
+            movieList.AddRange(movies);
 
             // TODO: Add individual items
-
+            movieList.Add("Spiral");
+            movieList.Add("The Hunt");
 
             // TODO: Examine the Count and Capacity
-
-
+            Console.WriteLine("Count is:" + movieList.Count + "\nCapacity is :" + movieList.Capacity);
+            Console.ReadLine();
+         
             // TODO: Enumerate the items in the list with a foreach loop
 
 
