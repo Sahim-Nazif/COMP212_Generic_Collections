@@ -26,14 +26,20 @@ namespace COMP212_List_GenericCollection
 
             // TODO: Examine the Count and Capacity
             Console.WriteLine("Count is:" + movieList.Count + "\nCapacity is :" + movieList.Capacity);
-            Console.ReadLine();
-         
+
+
             // TODO: Enumerate the items in the list with a foreach loop
 
+            foreach (var item in movieList)
+            {
+                Console.WriteLine(item);
+            }
+            //PrintList(movieList);
 
             // TODO: Access any item by its index
 
-
+            Console.WriteLine("Movie at Index 5:" + movieList[5]);
+            Console.ReadLine();
             // TODO: Remove items from the list
 
 
@@ -57,5 +63,6 @@ namespace COMP212_List_GenericCollection
 
             // TODO: Use TrueForAll to see if a given condition is true for all elements
         }
-    }
+
+       }
 }
