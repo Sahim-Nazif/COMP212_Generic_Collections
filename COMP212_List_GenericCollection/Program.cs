@@ -35,7 +35,6 @@ namespace COMP212_List_GenericCollection
                 Console.WriteLine(item);
             }
            
-
             // TODO: Access any item by its index
 
             Console.WriteLine("Movie at Index 5:" + movieList[5]);
@@ -50,14 +49,9 @@ namespace COMP212_List_GenericCollection
             //}
             // TODO: Sort the list content
             movieList.Sort();
-
-            //foreach (var item in movieList)
-            //{
-            //    Console.WriteLine(item);
-            //}
+            Console.WriteLine("\n*** Sorted Movies List ***");
             printMovies(movieList);
          
-
             // ** Searching List Content **/
 
             // TODO: Determine if a list contains a given item
@@ -75,7 +69,6 @@ namespace COMP212_List_GenericCollection
             Console.WriteLine("\nList of movie titles that begin with character T");
             printMovies(List_Of_Movies_Start_with_T);
 
-            // TODO: Use TrueForAll to see if a given condition is true for all elements
             Console.ReadLine();
         }
 
@@ -86,5 +79,5 @@ namespace COMP212_List_GenericCollection
                 Console.WriteLine(item);
             }
         }
-       }
+    }
 }
