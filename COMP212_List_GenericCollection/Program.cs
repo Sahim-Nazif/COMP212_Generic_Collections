@@ -68,11 +68,15 @@ namespace COMP212_List_GenericCollection
             string findMovieStartWith = "";
             findMovieStartWith= movieList.Find(m => m.StartsWith("C"));
             Console.WriteLine("Movie that start with C is:" + findMovieStartWith);
+
             // TODO: The FindAll function can find multiple items
 
+            List<string> List_Of_Movies_Start_with_T = movieList.FindAll(m => m.StartsWith("T"));
+            Console.WriteLine("\nList of movie titles that begin with character T");
+            printMovies(List_Of_Movies_Start_with_T);
 
-            Console.ReadLine();
             // TODO: Use TrueForAll to see if a given condition is true for all elements
+            Console.ReadLine();
         }
 
         static void printMovies(List<string >list)
