@@ -34,7 +34,7 @@ namespace COMP212_List_GenericCollection
             {
                 Console.WriteLine(item);
             }
-            //PrintList(movieList);
+           
 
             // TODO: Access any item by its index
 
@@ -44,30 +44,43 @@ namespace COMP212_List_GenericCollection
             movieList.Remove("Run");
             movieList.RemoveAt(2);
             
-            foreach (var item in movieList)
-            {
-                Console.WriteLine(item);
-            }
+            //foreach (var item in movieList)
+            //{
+            //    Console.WriteLine(item);
+            //}
             // TODO: Sort the list content
-            Console.ReadLine();
+            movieList.Sort();
+
+            //foreach (var item in movieList)
+            //{
+            //    Console.WriteLine(item);
+            //}
+            printMovies(movieList);
+         
 
             // ** Searching List Content **/
 
             // TODO: Determine if a list contains a given item
-
-
-            // TODO: The Exists function gives us a more customizable way to search
-            // by using a predicate function to examine each element in the list
+            Console.WriteLine(movieList.Contains("Under Water"));
 
 
             // TODO: Use the Find function to search through items
-
-
+            string findMovieStartWith = "";
+            findMovieStartWith= movieList.Find(m => m.StartsWith("C"));
+            Console.WriteLine("Movie that start with C is:" + findMovieStartWith);
             // TODO: The FindAll function can find multiple items
 
 
+            Console.ReadLine();
             // TODO: Use TrueForAll to see if a given condition is true for all elements
         }
 
+        static void printMovies(List<string >list)
+        {
+            foreach (var item in list )
+            {
+                Console.WriteLine(item);
+            }
+        }
        }
 }
