@@ -33,19 +33,20 @@ namespace COMP212_LinkedList
             //TODO: Retrieving the Next Item after the first item and previous item before the last
             Console.WriteLine("\nThe item after the first is :" + first.Next.Value);
             Console.WriteLine("The item previous or before the last is :" + last.Previous.Value);
-            // TODO: Items can be added or removed relative to an existing item
+            // TODO: Items can be added or removed relative to an existing item 
             topLanguages.AddAfter(first, "SQL");
             topLanguages.AddBefore(last, "Kotlin");
+            topLanguages.Remove("Swift");
+            
             foreach (var item in topLanguages)
             {
                 Console.WriteLine(item);
             }
-
+            Console.WriteLine(topLanguages.Count());
             // TODO: Search for items in the list with Contains and Find
-
-
-            // TODO: The list can then be traversed with those properties
-
+            Console.WriteLine(topLanguages.Contains("C#"));//will return true if contain else will be flase
+            Console.WriteLine("\n---------------------------");
+            Console.WriteLine(topLanguages.Find("C#").Value);
             Console.ReadLine();
         }
     }
