@@ -25,17 +25,24 @@ namespace COMP212_LinkedList
                 Console.WriteLine(item);
             }
 
-            Console.ReadLine();
-            // TODO: First and Last properties return LinkedListNodes
 
+            // TODO: First and Last properties return LinkedListNodes
+            LinkedListNode<string> first = topLanguages.First;
+            LinkedListNode<string> last = topLanguages.Last;
+
+            Console.WriteLine("\nRetrieving the first item in the linked List:" + first.Value);
+            Console.WriteLine("\nRetrieving the last item in the linked List:"+  last.Value);
 
             // TODO: Items can be added or removed relative to an existing item
-
+            Console.WriteLine(first.Next.Value);
+            
 
             // TODO: Search for items in the list with Contains and Find
 
 
             // TODO: The list can then be traversed with those properties
+
+            Console.ReadLine();
         }
     }
 }
