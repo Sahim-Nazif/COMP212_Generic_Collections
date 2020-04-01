@@ -30,12 +30,14 @@ namespace COMP212_LinkedList
             LinkedListNode<string> first = topLanguages.First;
             LinkedListNode<string> last = topLanguages.Last;
 
-            Console.WriteLine("\nRetrieving the first item in the linked List:" + first.Value);
-            Console.WriteLine("\nRetrieving the last item in the linked List:"+  last.Value);
-
+            Console.WriteLine("\nRetrieving the first item in the linked List: " + first.Value);
+            Console.WriteLine("Retrieving the last item in the linked List: " +  last.Value);
+            //TODO: Retrieving the Next Item after the first item and previous item before the last
+            Console.WriteLine("\nThe item after the first is :" + first.Next.Value);
+            Console.WriteLine("The item previous or before the last is :" + last.Previous.Value);
             // TODO: Items can be added or removed relative to an existing item
-            Console.WriteLine(first.Next.Value);
-            
+
+
 
             // TODO: Search for items in the list with Contains and Find
 
