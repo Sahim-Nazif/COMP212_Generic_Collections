@@ -24,8 +24,6 @@ namespace COMP212_LinkedList
             {
                 Console.WriteLine(item);
             }
-
-
             // TODO: First and Last properties return LinkedListNodes
             LinkedListNode<string> first = topLanguages.First;
             LinkedListNode<string> last = topLanguages.Last;
@@ -36,8 +34,12 @@ namespace COMP212_LinkedList
             Console.WriteLine("\nThe item after the first is :" + first.Next.Value);
             Console.WriteLine("The item previous or before the last is :" + last.Previous.Value);
             // TODO: Items can be added or removed relative to an existing item
-
-
+            topLanguages.AddAfter(first, "SQL");
+            topLanguages.AddBefore(last, "Kotlin");
+            foreach (var item in topLanguages)
+            {
+                Console.WriteLine(item);
+            }
 
             // TODO: Search for items in the list with Contains and Find
 
