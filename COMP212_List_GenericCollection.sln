@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "COMP212_List_GenericCollect
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "COMP212_LinkedList", "COMP212_LinkedList\COMP212_LinkedList.csproj", "{BE4C6E7E-93F9-46FB-B00F-1558464C5659}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "COMP212_StackCollection", "COMP212_StackCollection\COMP212_StackCollection.csproj", "{34AF11BD-E484-4E5D-A833-EFEA2A90B972}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{BE4C6E7E-93F9-46FB-B00F-1558464C5659}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE4C6E7E-93F9-46FB-B00F-1558464C5659}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE4C6E7E-93F9-46FB-B00F-1558464C5659}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34AF11BD-E484-4E5D-A833-EFEA2A90B972}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34AF11BD-E484-4E5D-A833-EFEA2A90B972}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34AF11BD-E484-4E5D-A833-EFEA2A90B972}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34AF11BD-E484-4E5D-A833-EFEA2A90B972}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
