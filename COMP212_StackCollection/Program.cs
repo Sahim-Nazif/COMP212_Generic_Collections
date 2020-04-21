@@ -34,8 +34,9 @@ namespace COMP212_StackCollection
             // TODO: The Pop function removes an element from the top
             movieStack.Pop();
             Console.WriteLine("Total items after poping an item from the top in stack order are: {0}", movieStack.Count());
-      
-            // TODO: Search for an element using Contains
+
+            // TODO: Search for an element using Contains --It contains the item will return true--
+            Console.WriteLine("Movie Stack Contains: {0}", movieStack.Contains("Bird Box"));
 
             Console.ReadLine();
         }
