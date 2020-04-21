@@ -18,12 +18,15 @@ namespace COMP212_StackCollection
             movieStack.Push("Bird Box");
             movieStack.Push("Candyman");
 
-
             // TODO: The Count property indicates how many elements are on the stack
+            Console.WriteLine("Total Items: {0}", movieStack.Count());
 
             // TODO: Stacks can be enumerated in place without changing the content
 
-
+            foreach (var item in movieStack)
+            {
+                Console.WriteLine(item);
+            }
             // TODO: The Peek function examines the current top element but does not remove it
 
 
@@ -31,6 +34,8 @@ namespace COMP212_StackCollection
 
 
             // TODO: Search for an element using Contains
+
+            Console.ReadLine();
         }
     }
 }
