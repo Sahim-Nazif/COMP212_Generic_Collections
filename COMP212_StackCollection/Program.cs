@@ -32,8 +32,9 @@ namespace COMP212_StackCollection
             Console.WriteLine("The first item in the stack order is: {0}", movieStack.Peek());
 
             // TODO: The Pop function removes an element from the top
-
-
+            movieStack.Pop();
+            Console.WriteLine("Total items after poping an item from the top in stack order are: {0}", movieStack.Count());
+      
             // TODO: Search for an element using Contains
 
             Console.ReadLine();
