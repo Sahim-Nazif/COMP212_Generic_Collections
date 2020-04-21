@@ -29,6 +29,7 @@ namespace COMP212_StackCollection
             }
             // TODO: The Peek function examines the current top element but does not remove it
 
+            Console.WriteLine("The first item in the stack order is: {0}", movieStack.Peek());
 
             // TODO: The Pop function removes an element from the top
 
