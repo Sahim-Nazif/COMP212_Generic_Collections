@@ -23,7 +23,13 @@ namespace COMP212_QueueCollection
             Console.WriteLine("Number of items in Queue is :{0}", items);
 
             //Queues can be iterated without changing the structure
-
+            foreach (var item in myFavGames)
+            {
+                Console.WriteLine(item);
+            }
+            //Peek at the front of the Queue. Peek will return the item/object at the beginning of the Queue without removing it
+            string firstItem = myFavGames.Peek();
+            Console.WriteLine("The first item in the Queue is : {0}", firstItem);
 
             Console.ReadLine();
         }
