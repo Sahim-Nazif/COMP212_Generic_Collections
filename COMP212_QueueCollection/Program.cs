@@ -39,6 +39,11 @@ namespace COMP212_QueueCollection
                 Console.WriteLine(item);
             }
             //we can continue removing first item from the queue using dequeue, because Queue is based on first in first out method
+
+            //lastly we can use Clear to remove all item from the Queue
+
+            myFavGames.Clear();
+            Console.WriteLine("Number of items in Queue is :{0}", items);
             Console.ReadLine();
         }
     }
