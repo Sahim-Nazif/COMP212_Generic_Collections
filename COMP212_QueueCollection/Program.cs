@@ -31,6 +31,14 @@ namespace COMP212_QueueCollection
             string firstItem = myFavGames.Peek();
             Console.WriteLine("The first item in the Queue is : {0}", firstItem);
 
+            //Remove items from the front of the Queue
+            firstItem = myFavGames.Dequeue();
+            Console.WriteLine("Removing an item from the front : {0}", firstItem);
+            foreach (var item in myFavGames)
+            {
+                Console.WriteLine(item);
+            }
+            //we can continue removing first item from the queue using dequeue, because Queue is based on first in first out method
             Console.ReadLine();
         }
     }
