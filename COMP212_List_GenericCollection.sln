@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "COMP212_LinkedList", "COMP2
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "COMP212_StackCollection", "COMP212_StackCollection\COMP212_StackCollection.csproj", "{34AF11BD-E484-4E5D-A833-EFEA2A90B972}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "COMP212_QueueCollection", "COMP212_QueueCollection\COMP212_QueueCollection.csproj", "{558D352A-B639-46AB-9F28-181434E65392}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{34AF11BD-E484-4E5D-A833-EFEA2A90B972}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34AF11BD-E484-4E5D-A833-EFEA2A90B972}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34AF11BD-E484-4E5D-A833-EFEA2A90B972}.Release|Any CPU.Build.0 = Release|Any CPU
+		{558D352A-B639-46AB-9F28-181434E65392}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{558D352A-B639-46AB-9F28-181434E65392}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{558D352A-B639-46AB-9F28-181434E65392}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{558D352A-B639-46AB-9F28-181434E65392}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
