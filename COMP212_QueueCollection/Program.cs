@@ -10,6 +10,21 @@ namespace COMP212_QueueCollection
     {
         static void Main(string[] args)
         {
+            //Created an empoty Queue that holds strings
+            Queue<string> myFavGames = new Queue<string>();
+
+            //Add items to the end of the queue
+            myFavGames.Enqueue("PES_2020");
+            myFavGames.Enqueue("The Walking Dead");
+            myFavGames.Enqueue("Call of Duty");
+            myFavGames.Enqueue("The Last of Us");
+            //Use the count property to see how many items there are
+
+
+            //Queues can be iterated without changing the structure
+
+
+            Console.ReadLine();
         }
     }
 }
