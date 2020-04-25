@@ -19,7 +19,8 @@ namespace COMP212_QueueCollection
             myFavGames.Enqueue("Call of Duty");
             myFavGames.Enqueue("The Last of Us");
             //Use the count property to see how many items there are
-
+            int items = myFavGames.Count();
+            Console.WriteLine("Number of items in Queue is :{0}", items);
 
             //Queues can be iterated without changing the structure
 
