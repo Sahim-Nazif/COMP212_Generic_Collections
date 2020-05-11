@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -35,6 +36,15 @@ namespace COMP212_DictionaryCollections
             {
                 Console.WriteLine(item);
             }
+
+            //Checking if a dictionary contains a key or  value and it will return TRUE
+
+            Console.WriteLine("Contains key:{0}",myMovies.ContainsKey(004));
+            Console.WriteLine("Contains value {0}", myMovies.ContainsValue("Call of Duty"));
+
+            //Removing element from dictionary
+            myMovies.Remove(002);
+            Console.WriteLine("After removing an item, there are {0} item in dictionary", myMovies.Count());
             Console.ReadLine();
         }
     }
