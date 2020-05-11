@@ -20,10 +20,13 @@ namespace COMP212_DictionaryCollections
             myMovies.Add(004, "Call of Duty");
 
             //use the count property to see how many items there are.
+            Console.WriteLine(myMovies.Count());
 
             //Trying to add an existing key will throw an exception
+            myMovies.Add(002, "A quiet place II");
 
             //fileTypes.Add
+            Console.ReadLine();
         }
     }
 }
