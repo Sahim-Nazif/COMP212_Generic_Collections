@@ -11,11 +11,13 @@ namespace COMP212_DictionaryCollections
         static void Main(string[] args)
         {
             //Main advantage of dictionary is that it's fast and unique key to value mapping
-            Dictionary <string ,string>myDictionary= new Dictionary<string, string>();
-
             //Dictionaries map keys to values. Keys must unique
-
+            Dictionary<int ,string>myMovies= new Dictionary<int, string>();
             //add some keys and values to the dictoinary
+            myMovies.Add(001, "A quiet Place");
+            myMovies.Add(002, "Extraction");
+            myMovies.Add(003, "My Dairy");
+            myMovies.Add(004, "Call of Duty");
 
             //use the count property to see how many items there are.
 
