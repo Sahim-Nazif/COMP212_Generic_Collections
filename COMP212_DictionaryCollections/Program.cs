@@ -23,9 +23,18 @@ namespace COMP212_DictionaryCollections
             Console.WriteLine(myMovies.Count());
 
             //Trying to add an existing key will throw an exception
-            myMovies.Add(002, "A quiet place II");
+            //myMovies.Add(002, "A quiet place II");
 
-            //fileTypes.Add
+            //Dictionaries are also like associative arrays
+            Console.WriteLine("Key value {0}", myMovies[003]);
+
+            //We can overwrite an existing value using key
+            myMovies[003] = "Numb";
+            Console.WriteLine(myMovies[003]);
+            foreach (var item in myMovies)
+            {
+                Console.WriteLine(item);
+            }
             Console.ReadLine();
         }
     }
